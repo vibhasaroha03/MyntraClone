@@ -1,3 +1,4 @@
+/***************** Item Page CSS **************************/
 /*.action_container {
     text-decoration: none;
 }
@@ -88,8 +89,7 @@ a.action_container:link {
 * {
   margin: 0;
   padding: 0;
-  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica, Arial, sans-serif;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   box-sizing: border-box;
 }
 header {
@@ -116,7 +116,7 @@ header {
 }
 .nav_bar a {
   font-size: 14px;
-  letter-spacing: 0.3px;
+  letter-spacing: .3px;
   color: #282c3f;
   font-weight: 700;
   text-transform: uppercase;
@@ -182,15 +182,14 @@ header {
 .category_heading {
   text-transform: uppercase;
   color: #3e4152;
-  letter-spacing: 0.15em;
+  letter-spacing: .15em;
   font-size: 1.8em;
   margin: 50px 0 10px 30px;
   max-height: 5em;
   font-weight: 700;
 }
 
-.category-items,
-.items-container {
+.category-items, .items-container {
   width: 80%;
   margin: 50px 10%;
   display: flex;
@@ -204,7 +203,7 @@ header {
 
 .footer_container {
   padding: 30px 0px 40px 0px;
-  background: #fafbfc;
+  background: #FAFBFC;
   display: flex;
   justify-content: space-evenly;
 }
@@ -237,21 +236,17 @@ header {
   width: 80%;
   margin: 40px 10%;
 }
-
 .item-container {
   width: 250px;
   margin: 10px;
 }
-
 .item-image {
   width: 100%;
 }
-
 .rating {
   font-size: 12px;
   font-weight: 700;
 }
-
 .company-name {
   margin-top: 15px;
   font-size: 16px;
@@ -263,7 +258,6 @@ header {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 .item-name {
   color: #535766;
   font-size: 14px;
@@ -276,20 +270,18 @@ header {
   font-weight: 400;
   display: block;
 }
-
 .price {
   margin-top: 10px;
   font-size: 14px;
   line-height: 15px;
-  color: #2b2c31;
+  color: #282c3f;
   white-space: nowrap;
 }
 .current-price {
   font-size: 14px;
   font-weight: 700;
-  color: #383c3f;
+  color: #282c3f;
 }
-
 .original-price {
   text-decoration: line-through;
   color: #7e818c;
@@ -333,5 +325,5 @@ header {
   text-decoration: none;
 }
 a.action_container:link {
-  color: black;
+  color:black;
 }
